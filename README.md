@@ -77,14 +77,14 @@ class Program
         // Створення екземплярів класу PhotoStudio
         PhotoStudio studio1 = new PhotoStudio();
         studio1.Type = "Lamp";
-        studio1.Manufacturer = "ABC Company";
+        studio1.Manufacturer = "apple";
         studio1.Power = 1000;
         studio1.LightType = "LED";
         studio1.NumberOfElements = 4;
 
         PhotoStudio studio2 = new PhotoStudio();
         studio2.Type = "Camera";
-        studio2.Manufacturer = "XYZ Company";
+        studio2.Manufacturer = "samsung";
         studio2.LightSensitivity = 200;
 
         // Виведення характеристик на екран
@@ -99,5 +99,7 @@ class Program
         Console.WriteLine();
 
         studio2.PrintCameraDetails();
+
+        Console.ReadLine();
     }
 }
